@@ -551,7 +551,7 @@ body {
   transform: translate(-50%, -50%);
   width: 408px;
   min-height: 584px;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   border-radius: 4px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -588,6 +588,7 @@ body {
 .backdrop-btn:focus {
   background-color: #404bbf;
   fill: #ffffff;
+  border: none;
 }
 
 .text-modal-form {
@@ -599,20 +600,21 @@ body {
   color: #2e2f42;
   width: 360px;
   height: 24px;
-  padding-top: 46px;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 /* =======================================Form style================================= */
 
 .label-modal-container {
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .label-title-text {
+  display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
+  margin-bottom: 4px;
 }
 
 .input-modal-container {
