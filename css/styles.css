@@ -728,7 +728,7 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-privacy:checked + .delusion-wrapper {
+.checkbox-privacy:checked + .label-privacy .delusion-wrapper {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
