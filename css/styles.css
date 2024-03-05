@@ -627,23 +627,30 @@ body {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  padding-left: 40px;
+  padding-left: 38px;
+  background-color: transparent;
+  outline: transparent;
 }
 
 .input-form-inside:focus {
-  border-color: 1px solid #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .icon-modal-form {
   position: absolute;
   fill: #2e2f42;
   top: 50%;
-  left: 15px;
+  left: 16px;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-form-inside:focus + .icon-modal-form {
   fill: #4d5ae5;
+}
+
+.label-modal-container-comment {
+  margin-bottom: 16px;
 }
 
 .form-message {
