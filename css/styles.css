@@ -575,9 +575,6 @@ body {
   background-color: #e7e9fc;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* fill: #2e2f42;
-
-  stroke: rgba(0, 0, 0, 0.1);  */
 }
 
 .backdrop-btn-icon {
@@ -701,7 +698,7 @@ body {
   display: block;
   border-radius: 4px;
   padding: 16px 32px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   color: #fff;
   background-color: #4d5ae5;
@@ -714,6 +711,7 @@ body {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .delusion-wrapper {
@@ -730,10 +728,8 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-delusion-wrapper {
-}
-
-.checkbox-privacy:checked + .label-privacy .delusion-wrapper {
-  fill: #404bbf;
-  color: #f4f4fd;
+.checkbox-privacy:checked + .delusion-wrapper {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
 }
